@@ -151,8 +151,8 @@ export default class Movies extends Component {
         return (
             <div>
             
-            <div className="container container-responsive">
-            <div className = "row mt-3">
+            <div className="container ">
+            <div className = "row mt-3 container-responsive">
                 <div className = "col-3 col-sm-4">
                         {genres.length > 1 ? 
                         <>
